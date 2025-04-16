@@ -80,12 +80,102 @@
 //  }
 
 //q10 . 31, 29, 24, 22, 17
-let a = 31
-for(let i=1; i<=4; i++){
-    document.writeln(a)
-   if(a%2==0){
-        a-=5
-    }else{
-        a-=2
-    }
-}
+// let a = 31
+// for(let i=1; i<=4; i++){
+//     document.writeln(a)
+//    if(a%2==0){
+//         a-=5
+//     }else{
+//         a-=2
+//     }
+// }
+
+//Q11 . 1.5, 2.3, 3.1, 3.9, 4.7
+// let a = 1.5;
+// for(let i=1; i<=5; i++)
+// {
+//     document.writeln(a)
+//     a+=0.8
+// }
+
+//Q12 .14, 28, 20, 40, 32, 64
+// let a = 14
+// for(let i=1; i<=4; i++){
+//     document.writeln(a)
+//     a*=2
+//     document.writeln(a)
+//     a-=8
+
+// }
+
+//Q13 .  2, 4, 6, 8, 10, ...
+
+// for(let i=1; i<=12; i++)
+// {
+//     if(i%2==0)
+//     {
+//         document.writeln(i)
+//     }
+// }
+
+//Q14 .201, 202, 204, 207, 211
+// let a = 201;
+// for(let i=1; i<=5; i++)
+// {
+//     document.writeln(a)
+//     a=a+i;
+// }
+
+
+
+
+
+
+//Q15 . 544, 509, 474, 439 , 404
+// a = 544
+// for(let i=1; i<=5; i++)
+// {
+//     document.writeln(a)
+//     a-=35;
+// }
+
+
+
+//Q16 .  80, 10, 70, 15, 60,
+// let a = 80
+// let b = 10
+// for(let i=1; i<=4; i++){
+//     document.writeln(a+" "+b)
+//     a-=10;
+//     b+=5;
+// }
+
+
+//Q17 .2, 6, 18, 54, 162
+// let a = 2
+// for(let i=1; i<=5; i++)
+// {
+//     document.writeln(a)
+//     a*=3;
+// }
+
+
+
+//Q18.  5.2, 4.8, 4.4, 4 , 3.6
+// let a = 5.2;
+// for(let i=1; i<=5; i++)
+// {
+//     document.writeln(a)
+//     a-=0.4;
+// }
+
+//q19. 8, 6, 9, 23, 87 , 429
+// a = 8
+// b = 2
+// for(let i=1; i<=6; i++){
+//     document.writeln(a)
+//     b++;
+//     a=a*i-b;
+//     a++;
+
+// }
