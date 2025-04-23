@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        // 3. wap to find max number from 3 user input variables.
+
+        let a = parseInt(prompt('ENTER a :'))
+        let b = parseInt(prompt('ENTER b :'))
+        let c = parseInt(prompt('ENTER c :'))
+
+
+        // a b c
+        // a/b--> a a/c --> a winner c winner
+        // b/c b --> b winner c winner
+
+        if(a>b){
+            // a c
+            if(a>c)
+        {
+            document.writeln(' A is max')
+        }
+        else{
+            document.writeln('C is max')
+        }
+
+        }else{
+            if(b>c)
+        {
+            document.writeln('B is max')
+        }else{
+            document.writeln('c is max')
+        }
+        
+
+        }
+    </script>
+</body>
+</html>
