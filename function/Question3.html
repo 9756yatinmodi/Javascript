@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to print a 1 to 5 table using a function as explain in class.
+        
+        function tabel (){
+    let n = parseInt(prompt("enter value"))
+        for(let i=1; i<=10; i++){
+            for(let x=1; x<=n; x++)
+        {
+            document.writeln(x+"*"+i+"="+x*i);
+            if(i<10){
+            document.writeln("&nbsp&nbsp");
+            }
+          
+        }
+        document.writeln("<br>");
+        }
+    }
+    tabel();
+        
+        
+       
+    </script>
+</body>
+</html>
