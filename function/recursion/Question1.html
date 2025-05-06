@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // WAP to print 1 to n number of sum
+
+        function sum(n){
+
+            if(n==1){ // n= 5 5==1 false
+                      // n= 4 4==1 false
+                return 1;
+            }
+
+            return n+sum(n-1); // 5 + (5-1) = 5+4+3
+
+        }
+
+        document.writeln(sum(5))
+    </script>
+</body>
+</html>

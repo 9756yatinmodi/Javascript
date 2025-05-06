@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // WAP to find factorial number
+
+
+        function factorial(n) {
+
+            if (n == 1) { // n= 5 5==1 false
+                // n= 4 4==1 false
+                return 1;
+            }
+
+            return n * factorial(n - 1); // 5 * (5-1) = 5*4*3
+
+        }
+
+        document.writeln(factorial(5))
+    </script>
+</body>
+
+</html>
