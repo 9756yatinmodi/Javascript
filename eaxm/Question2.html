@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function palindrom(n){
+           let temp = n
+           let reverse = 0
+
+            while(temp>0){
+                 let ld=temp%10;
+                let rev = ld;
+
+                reverse=(reverse * 10) + rev;
+                temp = Math.floor(temp /= 10);
+            }
+            if(n== reverse){
+                document.writeln("number is palindrom");
+            }else{
+                document.writeln("number is not palindrom");
+            }
+
+
+        }
+
+        palindrom(121);
+    </script>
+</body>
+</html>
