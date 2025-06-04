@@ -24,6 +24,10 @@ This is a simple, clean, and interactive **Random Quote Generator** built using 
 
 
 
+https://github.com/user-attachments/assets/fad9fa80-ec4b-42a2-a0c8-b70428fcec5e
+
+
+
 ---
 
 ## 🛠️ How to Use
