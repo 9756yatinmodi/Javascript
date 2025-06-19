@@ -20,6 +20,10 @@ Create 🆕, update ✏️, and delete ❌ your notes on the go. Built with **HT
 
 >
 
+https://github.com/user-attachments/assets/057f6191-ee03-4da9-a115-62d5867cd148
+
+
+
 ---
 
 ## 🛠️ Tech Stack
@@ -37,7 +41,7 @@ Create 🆕, update ✏️, and delete ❌ your notes on the go. Built with **HT
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/notes-app.git
+   git clone 
    cd notes-app
 ````
 
