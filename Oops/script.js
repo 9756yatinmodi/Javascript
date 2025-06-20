@@ -183,7 +183,7 @@
 //         document.writeln("subject is:",this.subject,"<br>");
 //     }
 // }
-// const stu=new Student("Bansal","Javascript");
+// const stu=new Student("Yatin","Javascript");
 // stu.greet();
 // stu.study();
 
