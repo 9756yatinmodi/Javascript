@@ -21,6 +21,10 @@ This is a simple e-commerce website built using **HTML**, **CSS**, and **JavaScr
 
 ## 📂 Project Structure : 
 
+https://github.com/user-attachments/assets/485f7c18-7ab7-428f-b426-b9412382175f
+
+
+
 ## 🔧 How It Works
 
 1. **Product Display**: Products are listed dynamically in the HTML.
