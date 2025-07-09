@@ -9,7 +9,7 @@ const tBody=document.getElementById("tBody");
 //       <td>@mdo</td>
 //       <td>@mdo</td>
 //     </tr>
-function displayCovidRecords(covid){
+function displayCovid(covid){
     covid.map((data,index)=>{
 
 const tr=document.createElement("tr");
@@ -45,5 +45,5 @@ tBody.appendChild(tr);
 fetch("https://api.rootnet.in/covid19-in/stats/latest")
 .then((Response)=>Response.json())
 .then((data)=>{
-    displayCovidRecords(data.data.regional);
+    displayCovid(data.data.regional);
 });
