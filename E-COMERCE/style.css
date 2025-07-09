@@ -1,0 +1,111 @@
+.navbar-brand img{
+    height: 50px;
+}
+.btn {
+    border-color: white;
+    color: white;
+}
+.main{
+    margin-top: 30px;
+    display: flex;
+}
+.product-box{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    width: 300px;
+    margin: 10PX;
+    padding: 10PX;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.product img{
+    width: 200px;
+    height: 200px;
+    margin-left: 12%;
+    
+}
+.product h5{
+    margin-top: 10px;
+}
+.product p {
+    margin: 5px;
+}
+.catdiv{
+    display: flex;
+}
+.cat{
+    font-weight: bold;
+}
+
+.price{
+    display: flex;
+    margin: 10px;
+    
+}
+.price p{
+    margin:5px;
+}
+button{
+    color: whitesmoke;
+    padding: 10PX;
+    border: none;
+    border-radius: 10PX;
+    cursor: pointer;
+    
+}
+.cart-list{
+    width: 30%;
+}
+.cart-item img{
+    width: 100px;
+    height: 100px;
+}
+h4{
+    color: rgb(10, 2, 80);
+}
+h5{
+    color: rgb(131, 54, 3);
+   
+}
+
+
+.billDiv h5{
+    color: white;
+}
+.billDiv p{
+    color: white;
+     font-weight: bold
+}
+.billDiv{
+    height: 190px;
+    width: 30%; 
+ position: fixed;
+   bottom: 0;
+   right: 0;
+   padding: 10px 20px;
+    background-color:#6d6868;
+    border: 2px solid #1e1f1f;
+    border-radius: 12px;
+    z-index: 999;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.checkout-btn{
+    
+    color: black;
+    outline: auto;
+    border: none;
+    padding: 12px 24px;
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
