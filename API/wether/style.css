@@ -1,0 +1,131 @@
+/* body{
+    background-image: url("https://www.wkbn.com/wp-content/uploads/sites/48/2022/07/clouds-cloudy-sky-spring-summer-fall-winter-weather-generic-8.jpg?w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#nav{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    margin-top: 15px;
+}
+.search input{
+    border: 0cap;
+    border-radius: 10px;
+    height: 35px;
+}
+.search button{
+    margin-left: 10px;
+    border: 0cap;
+    border-radius: 10px;
+}
+.temp{
+    margin-top: 100px;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: space-between;
+
+}tempbox2{
+    display: flex;
+    
+}
+.tempdetail{
+    margin-left: 10px;
+} */ 
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      padding: 40px;
+    }
+
+    .container {
+      background: #ffffffdd;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      padding: 30px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .search {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    .search input {
+      flex: 1;
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px 0 0 8px;
+      outline: none;
+    }
+
+    .search button {
+      padding: 10px 15px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 0 8px 8px 0;
+      cursor: pointer;
+    }
+
+    .nav h1 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .nav h4 {
+      color: #555;
+      margin-top: 5px;
+    }
+
+    .tempbox1 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .tempbox1 h1 {
+      font-size: 48px;
+      color: #ff5722;
+    }
+
+    .tempbox1 span {
+      font-size: 18px;
+      color: #888;
+    }
+
+    .tempbox2 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .tempbox2 img {
+      width: 80px;
+    }
+
+    .tempdetail h4 {
+  font-size: 16px;
+  color: #444;
+  margin: 5px 0;
+}
+
+
+    .tempdetail i {
+      margin-right: 8px;
+      color: #007bff;
+    }
