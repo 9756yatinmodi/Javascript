@@ -54,7 +54,8 @@ const api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOU
 ---
 
 ## 📸 Demo
-
-You can include a GIF or screen recording here to show the app in action.
-
 ---
+
+https://github.com/user-attachments/assets/8963205e-9f33-4bd8-b215-9bc9c90286b1
+
+
