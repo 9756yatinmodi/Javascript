@@ -1,0 +1,227 @@
+/* 
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-group label {
+  flex: 0 0 160px;
+  font-weight: 600;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-group.full {
+  justify-content: flex-end;
+}
+
+#display{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#box{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    
+}
+#box img{
+    height: 150px;
+    width: 150px;
+    margin-left: 65px;
+} */
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-group label {
+  flex: 0 0 150px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group.full {
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px 18px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#display {
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+#box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 260px;
+  position: relative;
+}
+
+#box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#box h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #007BFF;
+}
+
+#box p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card-buttons button {
+  flex: 1;
+  font-size: 13px;
+  padding: 6px 10px;
+}
+
+.card-buttons .edit {
+  background-color: #28a745;
+}
+
+.card-buttons .edit:hover {
+  background-color: #1e7e34;
+}
+
+.card-buttons .delete {
+  background-color: #dc3545;
+}
+
+.card-buttons .delete:hover {
+  background-color: #c82333;
+}
+
