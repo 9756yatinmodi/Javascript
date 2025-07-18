@@ -2,9 +2,6 @@
 
 A simple and responsive **Corona (COVID-19) Tracker Web Application** that fetches real-time data from an API. Built using **HTML**, **Bootstrap**, **JavaScript**, and the **DOM API**.
 
-## 🌐 Live Preview
-
-[🔗 View Live Project]
 
 
 
@@ -30,9 +27,10 @@ A simple and responsive **Corona (COVID-19) Tracker Web Application** that fetch
 
 ## 📷 Screenshots
 
-*(Add your project screenshots here if available)*
 
----
+
+---<img width="1916" height="911" alt="Screenshot 2025-07-18 133731" src="https://github.com/user-attachments/assets/1a3a1780-2761-449a-ad22-2923171d653e" />
+
 
 ## 🧠 How It Works
 
