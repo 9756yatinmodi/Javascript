@@ -24,16 +24,6 @@ Product Image (preview)
 
 🎨 Responsive, horizontal form UI using Flexbox
 
-📁 Project Structure
-cpp
-Copy
-Edit
-📦 product-management-app/
-├── index.html         // Main HTML file
-├── style.css          // All styles and layout
-├── script.js          // Dynamic form + localStorage logic
-└── README.md          // Project documentation
-🧪 How It Works
 Fill in the Product Name, Price, Category, Image, and Description.
 
 Click "Add Product" to create a product card.
@@ -45,7 +35,11 @@ Use "Delete" to remove a product.
 All data is saved in localStorage and persists even after page reload.
 
 🖥️ Preview
-<!-- Optional image reference if hosted -->
+
+
+https://github.com/user-attachments/assets/2c58818a-429f-477e-814d-ead2938f2ff9
+
+
 
 📦 Technologies Used
 HTML5
